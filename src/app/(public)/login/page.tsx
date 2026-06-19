@@ -98,6 +98,15 @@ export default function LoginPage() {
               Pas encore de compte ?{' '}
               <Link href="/register" className="text-blue-600 font-medium hover:underline">Créer un compte</Link>
             </div>
+
+            <div className="mt-4 p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600">
+              <p className="font-semibold text-slate-800 mb-2">Comptes de test disponibles :</p>
+              <ul className="space-y-1.5 font-mono">
+                <li><span className="font-semibold text-slate-700">Étudiant:</span> ahmed@univ.ma <span className="text-slate-400">|</span> test1234</li>
+                <li><span className="font-semibold text-slate-700">Concepteur:</span> karim@univ.ma <span className="text-slate-400">|</span> test1234</li>
+                <li><span className="font-semibold text-slate-700">Admin:</span> admin@univ.ma <span className="text-slate-400">|</span> test1234</li>
+              </ul>
+            </div>
           </CardContent>
         </Card>
       </div>
