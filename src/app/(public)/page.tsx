@@ -73,10 +73,7 @@ export default function LandingPage() {
         <div className="absolute bottom-20 left-1/4 w-16 h-16 rounded-full bg-blue-400/10 animate-float" style={{ animationDelay: '2s' }} />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-600 text-sm font-medium mb-8 animate-fade-in">
-            <Zap className="h-4 w-4" />
-            Propulsé par l&apos;Intelligence Artificielle
-          </div>
+          
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight mb-6 animate-slide-up">
             Transformez vos cours en{' '}
