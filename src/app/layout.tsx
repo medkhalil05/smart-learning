@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: "Smart Learning - Plateforme d'Apprentissage Intelligente",
   description: "Transformez vos cours en professeurs virtuels intelligents grâce à l'IA. Plateforme d'apprentissage adaptatif avec tuteur IA, quiz interactifs et analytiques.",
   keywords: ["apprentissage", "IA", "éducation", "tuteur virtuel", "quiz", "PDF", "université"],
+   icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
