@@ -8,7 +8,7 @@ import {
   LayoutDashboard, BookOpen, MessageSquare, HelpCircle, TrendingUp,
   Upload, FileText, ClipboardCheck, BarChart3, AlertTriangle,
   Users, Shield, GraduationCap, Settings, ChevronLeft, ChevronRight,
-  Brain, Layers
+  Brain, Layers, UserCheck
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -36,6 +36,7 @@ const designerNav: NavItem[] = [
   { title: 'Structurer le contenu', href: '/designer/structure/c1', icon: <Layers className="h-5 w-5" /> },
   { title: 'Valider les quiz', href: '/designer/quiz-validation', icon: <ClipboardCheck className="h-5 w-5" />, badge: 3 },
   { title: 'Analytiques', href: '/designer/analytics', icon: <BarChart3 className="h-5 w-5" /> },
+  { title: 'Étudiants par cours', href: '/designer/course-students', icon: <UserCheck className="h-5 w-5" /> },
   { title: 'Étudiants à risque', href: '/designer/students-risk', icon: <AlertTriangle className="h-5 w-5" />, badge: 2 },
 ];
 
