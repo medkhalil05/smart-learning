@@ -41,7 +41,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2">
-              <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-600 text-white">
+              <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-linear-to-br from-blue-600 to-indigo-600 text-white">
                 <Brain className="h-5 w-5" />
               </div>
               <span className="font-bold text-lg text-slate-900">Smart Learning</span>
@@ -65,7 +65,7 @@ export default function LandingPage() {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-indigo-50 to-white" />
+        <div className="absolute inset-0 bg-linear-to-br from-blue-50 via-indigo-50 to-white" />
         <div className="absolute inset-0 bg-grid-pattern opacity-30" />
         {/* Floating elements */}
         <div className="absolute top-40 left-10 w-20 h-20 rounded-full bg-blue-600/10 animate-float" />
@@ -90,12 +90,6 @@ export default function LandingPage() {
               <Button size="lg" className="text-base px-8 shadow-lg shadow-blue-600/25 hover:shadow-xl hover:shadow-blue-600/30 transition-all">
                 Commencer gratuitement
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-            </Link>
-            <Link href="/student/chat/c1">
-              <Button variant="outline" size="lg" className="text-base px-8">
-                <MessageSquare className="mr-2 h-5 w-5" />
-                Voir la démo
               </Button>
             </Link>
           </div>
@@ -133,7 +127,7 @@ export default function LandingPage() {
             {features.map((feature, idx) => (
               <Card key={idx} className="card-hover group border-slate-200/50">
                 <CardContent className="p-6">
-                  <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50 text-blue-600 mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-linear-to-br from-blue-50 to-indigo-50 text-blue-600 mb-4 group-hover:scale-110 transition-transform duration-300">
                     {feature.icon}
                   </div>
                   <h3 className="text-lg font-semibold text-slate-900 mb-2">{feature.title}</h3>
@@ -177,7 +171,7 @@ export default function LandingPage() {
       </section>
 
       {/* Advantages / Benchmark Section */}
-      <section id="advantages" className="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white">
+      <section id="advantages" className="py-20 bg-linear-to-br from-blue-900 via-blue-800 to-indigo-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <p className="text-sm font-semibold text-blue-200 uppercase tracking-wider mb-3">Avantages</p>
@@ -227,7 +221,7 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-600 text-white">
+                <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-linear-to-br from-blue-600 to-indigo-600 text-white">
                   <Brain className="h-4 w-4" />
                 </div>
                 <span className="font-bold text-slate-900">Smart Learning</span>
